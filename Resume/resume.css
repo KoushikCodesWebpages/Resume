@@ -1,0 +1,74 @@
+.side {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 25%; /* Adjust width as a percentage of the viewport */
+    height: 100vh;
+    background-color: grey;
+    color: white;
+    padding: 20px;
+}
+
+.mainp {
+    margin-left: 27.5%; /* Adjust margin to leave space for sidebar */
+    padding: 20px;
+    height: 100vh;
+}
+
+.propic {
+    width: 100px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+.head3 {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.head4 {
+    font-size: 15px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+}
+
+.cont, .cont1, .cont2 {
+    margin-bottom: 20px; /* Add margin between sections */
+}
+
+.more {
+    margin-top: 35px;
+}
+
+.lin {
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.alle {
+    display: flex;
+}
+
+@media only screen and (max-width: 800px) {
+    .side {
+        width: 40%; /* Adjust width for smaller screens */
+    }
+
+    .mainp {
+        margin-left: 40%; /* Adjust margin for smaller screens */
+    }
+
+    .propic {
+        width: 50px; /* Adjust image size for smaller screens */
+    }
+
+    .lin {
+        font-size: 20px;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+}
